@@ -1,0 +1,46 @@
+html {
+    min-width: 45em;
+}
+
+#show-message {
+    min-width: 450px;
+}
+
+#global-lock-icon {
+  font-size: 18px;
+  color: orange;
+}
+
+.clear-panel-outline {
+  border-style: hidden !important;
+  box-shadow: 0 0px 0px rgba(0,0,0,.05) !important;
+}
+
+.glyphicon-spin {
+  -webkit-animation: spin 4000ms infinite linear;
+  animation: spin 4000ms infinite linear;
+  transform-style: preserve-3d;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+  100% {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+  100% {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+
+  }
+}
